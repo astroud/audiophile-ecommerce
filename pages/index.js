@@ -5,6 +5,7 @@ import TwitterIcon from '../components/twitterIcon/twitterIcon';
 import InstagramIcon from '../components/instagramIcon/instagramIcon';
 import HamburgerIcon from '../components/hamburgerIcon/hamburgerIcon';
 import CartIcon from '../components/cartIcon/cartIcon';
+import CheckmarkIcon from '../components/checkmarkIcon/checkmarkIcon';
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
         <HamburgerIcon fill="var(--color-accent)" width="32" height="30" />
         <CartIcon />
         <CartIcon fill="var(--color-accent)" width="46" height="40" />
+        <CheckmarkIcon />
+        <CheckmarkIcon fill="var(--color-accent-hover)" stroke="var(--color-accent)" width="92" height="92" />
       </div>
     </div>
   );
