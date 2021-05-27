@@ -3,7 +3,7 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
 
   * {  // css reset
       padding: 0;
@@ -19,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
     
     --color-accent-hover: #fbaf85;
     --color-white: #FFFFFF;  // Needs a semantic or more descriptive name
+    --color-black: #000000;
 
     --background-navbar: #000000;
     --background-hero: #000000;
