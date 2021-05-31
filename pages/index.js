@@ -6,7 +6,7 @@ import InstagramIcon from '../components/instagramIcon/instagramIcon';
 import HamburgerIcon from '../components/hamburgerIcon/hamburgerIcon';
 import CartIcon from '../components/cartIcon/cartIcon';
 import CheckmarkIcon from '../components/checkmarkIcon/checkmarkIcon';
-import Button from '../components/Button/Button.js';
+import Button from '../components/button/button';
 
 export default function Home() {
   return (
