@@ -3,12 +3,12 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 function MyApp({ Component, pageProps }) {
-	return (
-		<>
-			<GlobalStyles />
-			<Component {...pageProps} />
-		</>
-	);
+  return (
+    <>
+      <GlobalStyles />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 const GlobalStyles = createGlobalStyle`
