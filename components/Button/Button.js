@@ -7,7 +7,7 @@ const BaseBtn = styled.button`
   font: inherit;
   color: inherit;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   font-weight: 700;
   width: ${(p) => (p.width ? `${p.width}` : 'auto')};
 `;
@@ -19,8 +19,8 @@ const UnstyledBtn = styled(BaseBtn)`
 const PrimaryBtn = styled(BaseBtn)`
   background-color: var(--color-accent);
   color: var(--color-white);
-  height: 48px;
-  width: ${(p) => (p.width ? `${p.width}` : '160px')};
+  height: 3rem;
+  width: ${(p) => (p.width ? `${p.width}` : '10rem')};
   font-size: 0.8125rem;
   transition: background-color 0.3s ease;
 
@@ -31,10 +31,10 @@ const PrimaryBtn = styled(BaseBtn)`
 
 const SecondaryBtn = styled(BaseBtn)`
   background-color: transparent;
-  border: 1px solid var(--color-black);
+  border: 0.0625rem solid var(--color-black);
   color: var(--color-black);
-  height: 48px;
-  width: ${(p) => (p.width ? `${p.width}` : '160px')};
+  height: 3rem;
+  width: ${(p) => (p.width ? `${p.width}` : '10rem')};
   font-size: 0.8125rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 
