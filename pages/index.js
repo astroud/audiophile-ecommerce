@@ -7,14 +7,17 @@ import HamburgerIcon from '../components/hamburgerIcon/hamburgerIcon';
 import CartIcon from '../components/cartIcon/cartIcon';
 import CheckmarkIcon from '../components/checkmarkIcon/checkmarkIcon';
 import Button from '../components/button/button';
+import CategoryButtons from '../components/categoryButtons/categoryButtons';
 
 export default function Home() {
   return (
     <div
       style={{
         display: 'flex',
+        flexWrap: 'wrap',
         justifyContent: 'center',
         marginTop: '3rem',
+        background: '#FAFAFA',
       }}
     >
       <div
@@ -78,7 +81,9 @@ export default function Home() {
           <Button variant="text">Remove All</Button>
           <Button variant="category" />
         </div>
+
       </div>
+      <CategoryButtons categories={['headphones', 'speakers', 'earphones']} />
     </div>
   );
 }
