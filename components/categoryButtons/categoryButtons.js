@@ -5,15 +5,15 @@ const PHONE_BREAKPOINT = '468px';
 const TABLET_BREAKPOINT = '768px';
 
 const float = keyframes`
-  0% {
+  \ 0% {
     transform: translatey(0rem);
   }
 
-  50% {
+  \ 50% {
     transform: translatey(-1rem);
   }
 
-  100% {
+  \ 100% {
     transform: translatey(0rem);
   }
 `;
