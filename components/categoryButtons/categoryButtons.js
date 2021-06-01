@@ -130,7 +130,7 @@ const Link = styled.button`
 const CategoryButtons = ({ categories }) => (
   <CategoryWrapper>
     {categories.map((category) => (
-      <Link href="/">
+      <Link href="/" key={category}>
         <img
           src={`./assets/images/${category}.png`}
           alt={`decoration on link to browse ${category}`}
